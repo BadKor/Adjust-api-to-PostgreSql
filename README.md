@@ -2,7 +2,7 @@
 
 Scripts for load data from Adjust to PostgreSql for Advertising Agency. API Doc https://help.adjust.com/en/article/kpi-service
 
-### Table for data function "tracker" have delimeter by OS and Country:
+#### Table for data function "tracker" have delimeter by OS and Country:
 
 create table table_name_for_trackers
 (
@@ -17,7 +17,7 @@ create table table_name_for_trackers
     os_names      text
 );
 
-# Table for data function "campaign" have delimeters by OS and Country:
+#### Table for data function "campaign" have delimeters by OS and Country:
 
 create table table_name_for_campaigns
 (
@@ -32,7 +32,7 @@ create table table_name_for_campaigns
     os_names       text
 );
 
-# Table for data function "sub_id" DON'T HAVE (It's Adjust rules) delimeters by OS and Country:
+#### Table for data function "sub_id" DON'T HAVE (It's Adjust rules) delimeters by OS and Country:
 
 create table table_name_for_subids
 (
@@ -47,7 +47,7 @@ create table table_name_for_subids
     pay_action     integer
 );
 
-# Table for data function "creo" DON'T HAVE (It's Adjust rules) delimeters by OS and Country:
+#### Table for data function "creo" DON'T HAVE (It's Adjust rules) delimeters by OS and Country:
 
 create table table_name_for_creatives
 (
