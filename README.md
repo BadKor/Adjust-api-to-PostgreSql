@@ -2,7 +2,7 @@
 
 Scripts for load data from Adjust to PostgreSql for Advertising Agency. API Doc https://help.adjust.com/en/article/kpi-service
 
-# Table for data function "tracker" have delimeter by OS and Country:
+### Table for data function "tracker" have delimeter by OS and Country:
 
 create table table_name_for_trackers
 (
